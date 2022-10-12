@@ -1,0 +1,194 @@
+.navbar-brand {
+    padding-right: 15%;
+}
+
+.info {
+    display: block;
+    padding: 10% 0% 0% 0%;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.tit {
+    padding-left: 25%;
+}
+
+.task {
+    padding: 0% 0% 0% 30%;
+    display: block;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    color: rgb(23, 23, 240);
+}
+
+.title {
+    padding: 1% 0% 0% 22%;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.5em;
+}
+
+.decoration {
+    padding: 0% 0% 0% 17%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+.stat {
+    padding: 10% 0% 0% 0%;
+
+}
+
+.tit1 {
+    padding-left: 41%;
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+th {
+    background: black;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    color: white;
+}
+
+th:first-child,
+td:first-child {
+    text-align: center;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+td {
+    padding: 10px 20px;
+    background: grey;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+td:nth-child(even) {
+    background-color: #363535
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+
+
+.pos {
+    padding: 2% 0% 0% 12%;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: num;
+    margin: 0 0 0 45px;
+    padding: 15px 0 5px 0;
+    font-size: 16px;
+}
+
+ol li {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+ol li:before {
+    content: counter(num);
+    counter-increment: num;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -38px;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    color: black;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid rgb(23, 23, 240);
+}
+
+.recommendation {
+    padding-left: 303px;
+    padding-right: 330px;
+    padding-top: 150px;
+}
+
+.items {
+    padding-top: 150px;
+    padding-left: 450px;
+    padding-right: 260px;
+}
+
+.smallRecommendation {
+    padding-left: 303px;
+    padding-right: 330px;
+    padding-top: 50px;
+}
+
+.space {
+    padding-top: 200px;
+}
+.sub{
+background-color: black;
+color: white;
+border-radius: 1.3em;
+font-family: 'Roboto', sans-serif;
+height: 40px;
+width: 100px;
+
+}
+.clear{
+    background-color: black;
+    color: white;
+    border-radius: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 100px;
+}
+.forma{
+    padding: 0% 0% 0% 0%;
+}
+.user{
+    padding-left: 20%;
+    padding-top: 33%;
+}
+.tit2{
+    padding-bottom: 10%;
+    padding-left: 35%;
+}
