@@ -164,16 +164,18 @@ ol li:before {
 .space {
     padding-top: 200px;
 }
-.sub{
-background-color: black;
-color: white;
-border-radius: 1.3em;
-font-family: 'Roboto', sans-serif;
-height: 40px;
-width: 100px;
+
+.sub {
+    background-color: black;
+    color: white;
+    border-radius: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 100px;
 
 }
-.clear{
+
+.clear {
     background-color: black;
     color: white;
     border-radius: 1.3em;
@@ -181,14 +183,18 @@ width: 100px;
     height: 40px;
     width: 100px;
 }
-.forma{
+
+.forma {
     padding: 0% 0% 0% 0%;
 }
-.user{
+
+.user {
     padding-left: 20%;
     padding-top: 33%;
 }
-.tit2{
+
+.tit2 {
     padding-bottom: 10%;
     padding-left: 35%;
 }
+
